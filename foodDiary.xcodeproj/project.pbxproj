@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A04CA7B1C2E4CA100CA2C6C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A04CA7A1C2E4CA100CA2C6C /* CoreLocation.framework */; };
+		0A04CA7D1C2E5DB100CA2C6C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A04CA7C1C2E5DB100CA2C6C /* MapKit.framework */; };
 		0A063D921C2BA4810028909F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A063D911C2BA4810028909F /* main.m */; };
 		0A063D951C2BA4810028909F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A063D941C2BA4810028909F /* AppDelegate.m */; };
 		0A063D981C2BA4810028909F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A063D971C2BA4810028909F /* ViewController.m */; };
-		0A063D9B1C2BA4810028909F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A063D991C2BA4810028909F /* Main.storyboard */; };
 		0A063D9D1C2BA4810028909F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A063D9C1C2BA4810028909F /* Assets.xcassets */; };
 		0A063DA01C2BA4810028909F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A063D9E1C2BA4810028909F /* LaunchScreen.storyboard */; };
 		0A063DAB1C2BA4810028909F /* foodDiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A063DAA1C2BA4810028909F /* foodDiaryTests.m */; };
 		0A063DB61C2BA4810028909F /* foodDiaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A063DB51C2BA4810028909F /* foodDiaryUITests.m */; };
+		0A063DC41C2BA4F30028909F /* myBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A063DC31C2BA4F30028909F /* myBoard.storyboard */; };
+		0A063DC71C2BA8890028909F /* FoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A063DC61C2BA8890028909F /* FoodTableViewController.m */; };
+		0A063DCA1C2BAFB50028909F /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A063DC91C2BAFB50028909F /* FoodViewController.m */; };
+		0A063DD21C2BFF200028909F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A063DD11C2BFF200028909F /* DetailViewController.m */; };
+		0A399CEA1C310BCC00276F2A /* mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A399CE91C310BCC00276F2A /* mario.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A04CA7A1C2E4CA100CA2C6C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0A04CA7C1C2E5DB100CA2C6C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		0A063D8D1C2BA4810028909F /* foodDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A063D911C2BA4810028909F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A063D931C2BA4810028909F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A063D941C2BA4810028909F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0A063D961C2BA4810028909F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0A063D971C2BA4810028909F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0A063D9A1C2BA4810028909F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A063D9C1C2BA4810028909F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A063D9F1C2BA4810028909F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A063DA11C2BA4810028909F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +58,14 @@
 		0A063DB11C2BA4810028909F /* foodDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A063DB51C2BA4810028909F /* foodDiaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = foodDiaryUITests.m; sourceTree = "<group>"; };
 		0A063DB71C2BA4810028909F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A063DC31C2BA4F30028909F /* myBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = myBoard.storyboard; sourceTree = "<group>"; };
+		0A063DC51C2BA8890028909F /* FoodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewController.h; sourceTree = "<group>"; };
+		0A063DC61C2BA8890028909F /* FoodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewController.m; sourceTree = "<group>"; };
+		0A063DC81C2BAFB50028909F /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
+		0A063DC91C2BAFB50028909F /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
+		0A063DD01C2BFF200028909F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		0A063DD11C2BFF200028909F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		0A399CE91C310BCC00276F2A /* mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A04CA7D1C2E5DB100CA2C6C /* MapKit.framework in Frameworks */,
+				0A04CA7B1C2E4CA100CA2C6C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,7 @@
 		0A063D841C2BA4810028909F = {
 			isa = PBXGroup;
 			children = (
+				0A04CA7C1C2E5DB100CA2C6C /* MapKit.framework */,
 				0A063D8F1C2BA4810028909F /* foodDiary */,
 				0A063DA91C2BA4810028909F /* foodDiaryTests */,
 				0A063DB41C2BA4810028909F /* foodDiaryUITests */,
@@ -101,13 +119,20 @@
 		0A063D8F1C2BA4810028909F /* foodDiary */ = {
 			isa = PBXGroup;
 			children = (
+				0A063DD01C2BFF200028909F /* DetailViewController.h */,
+				0A063DD11C2BFF200028909F /* DetailViewController.m */,
 				0A063D931C2BA4810028909F /* AppDelegate.h */,
 				0A063D941C2BA4810028909F /* AppDelegate.m */,
 				0A063D961C2BA4810028909F /* ViewController.h */,
 				0A063D971C2BA4810028909F /* ViewController.m */,
-				0A063D991C2BA4810028909F /* Main.storyboard */,
 				0A063D9C1C2BA4810028909F /* Assets.xcassets */,
+				0A399CE91C310BCC00276F2A /* mario.png */,
 				0A063D9E1C2BA4810028909F /* LaunchScreen.storyboard */,
+				0A063DC31C2BA4F30028909F /* myBoard.storyboard */,
+				0A063DC81C2BAFB50028909F /* FoodViewController.h */,
+				0A063DC91C2BAFB50028909F /* FoodViewController.m */,
+				0A063DC51C2BA8890028909F /* FoodTableViewController.h */,
+				0A063DC61C2BA8890028909F /* FoodTableViewController.m */,
 				0A063DA11C2BA4810028909F /* Info.plist */,
 				0A063D901C2BA4810028909F /* Supporting Files */,
 			);
@@ -136,6 +161,7 @@
 			children = (
 				0A063DB51C2BA4810028909F /* foodDiaryUITests.m */,
 				0A063DB71C2BA4810028909F /* Info.plist */,
+				0A04CA7A1C2E4CA100CA2C6C /* CoreLocation.framework */,
 			);
 			path = foodDiaryUITests;
 			sourceTree = "<group>";
@@ -243,9 +269,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A399CEA1C310BCC00276F2A /* mario.png in Resources */,
 				0A063DA01C2BA4810028909F /* LaunchScreen.storyboard in Resources */,
 				0A063D9D1C2BA4810028909F /* Assets.xcassets in Resources */,
-				0A063D9B1C2BA4810028909F /* Main.storyboard in Resources */,
+				0A063DC41C2BA4F30028909F /* myBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A063D981C2BA4810028909F /* ViewController.m in Sources */,
+				0A063DCA1C2BAFB50028909F /* FoodViewController.m in Sources */,
 				0A063D951C2BA4810028909F /* AppDelegate.m in Sources */,
 				0A063D921C2BA4810028909F /* main.m in Sources */,
+				0A063DC71C2BA8890028909F /* FoodTableViewController.m in Sources */,
+				0A063DD21C2BFF200028909F /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +338,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0A063D991C2BA4810028909F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A063D9A1C2BA4810028909F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0A063D9E1C2BA4810028909F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -417,6 +439,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ABCD.foodDiary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -428,6 +451,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ABCD.foodDiary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +522,7 @@
 				0A063DBC1C2BA4810028909F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A063DBD1C2BA4810028909F /* Build configuration list for PBXNativeTarget "foodDiaryTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +531,7 @@
 				0A063DBF1C2BA4810028909F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A063DC01C2BA4810028909F /* Build configuration list for PBXNativeTarget "foodDiaryUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +540,7 @@
 				0A063DC21C2BA4810028909F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
